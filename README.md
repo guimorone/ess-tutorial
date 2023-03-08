@@ -1,12 +1,10 @@
 # Tutorial FullStack
 
-#### Tutorial para criar aplicações Web do zero.
+Tutorial para criar aplicações Web do zero.
 
-#### Abaixo estarão as abordagens/referências utilizadas na videoaula.
+Abaixo estarão as abordagens/referências utilizadas na videoaula.
 
-#### Cada uma delas (que utilizam Node/Javascript) também possui templates para [**TypeScript**](https://www.typescriptlang.org/).
-
-#### Vale ressaltar que eu recomendo o uso de TypeScript, também por ser um trabalho em grupo e, apesar de deixar o código mais verboso, auxilia na documentação do projeto.
+Cada uma delas (que utilizam Node/Javascript) também possui templates para [**TypeScript**](https://www.typescriptlang.org/). Vale ressaltar que eu recomendo o uso de TypeScript, também por ser um trabalho em grupo e, apesar de deixar o código mais verboso, auxilia na documentação do projeto.
 
 As versões das ferramentas utilizadas neste projeto não precisam ser as que vocês iram usar, é só uma atenção para não ter problemas ao rodar este tutorial.
 
@@ -95,7 +93,7 @@ O resto pode ser visto no arquivo `frontend/package.json`
 - [npx, npm ou yarn](https://create-react-app.dev/docs/getting-started)
   - Se quiser criar com [redux](https://react-redux.js.org/introduction/getting-started#using-create-react-app)
 - [vite](https://vitejs.dev/guide/#trying-vite-online)
-  #### Configuração da aplicação é mais complicada, porém é uma ferramenta mais poderosa.
+  - Configuração da aplicação é mais complicada, porém é uma ferramenta mais poderosa.
 
 ### Rodando localmente
 
@@ -108,7 +106,7 @@ npm start
 
 ### Bibliotecas
 
-#### Vou deixar as listas abaixo na ordem que eu prefiro.
+Vou deixar as listas abaixo na ordem que eu prefiro.
 
 - UI
 
@@ -139,7 +137,9 @@ npm start
 
 ## Projetos base
 
-#### Vale ressaltar que a escolha e o uso das ferramentas são livres, o único requisito é se atentar ao conceito de [SaaS](https://pt.wikipedia.org/wiki/Software_como_servi%C3%A7o) e aplicá-lo ao projeto.
+Vale ressaltar que a escolha e o uso das ferramentas são **livres**, o único requisito é se atentar ao conceito de [**SaaS**](https://pt.wikipedia.org/wiki/Software_como_servi%C3%A7o) e aplicá-lo ao projeto.
+
+Atentem-se também ao arquivo `.gitignore`, para não realizarem commits de arquivos indesejados ou desnecessários.
 
 Se você quiser se basear em um projeto anterior da disciplina, aqui vai dois exemplos:
 
