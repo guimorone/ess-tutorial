@@ -19,7 +19,7 @@ As versões das ferramentas utilizadas neste projeto não precisam ser as que vo
 Utilizadas neste projeto:
 
 - Python v3.11.0
-- pip v
+- pip v23.0.1
 
 Docs:
 
@@ -144,5 +144,5 @@ npm start
 Se você quiser se basear em um projeto anterior da disciplina, aqui vai dois exemplos:
 
 - [Delivery App](https://github.com/Enriqson/ess-delivery-app)
-- [foMiau](https://github.com/aliceoq/ess-delivery-app)
+- [foMiau](https://github.com/pedrojlsilva/ess-delivery-app)
   - Obs: Esse foi feito com [Angular](https://angular.io/docs) no Front-end!
