@@ -6,7 +6,7 @@ Abaixo estarão as abordagens/referências utilizadas na videoaula.
 
 Cada uma delas (que utilizam Node/Javascript) também possui templates para [**TypeScript**](https://www.typescriptlang.org/). Vale ressaltar que eu recomendo o uso de TypeScript, também por ser um trabalho em grupo e, apesar de deixar o código mais verboso, auxilia na documentação do projeto.
 
-As versões das ferramentas utilizadas neste projeto não precisam ser as que vocês iram usar, é só uma atenção para não ter problemas ao rodar este tutorial.
+As versões das ferramentas utilizadas neste projeto não precisam ser as que vocês irão usar, é só uma atenção para não ter problemas ao rodar este tutorial.
 
 # Back-end
 
@@ -110,17 +110,17 @@ Vou deixar as listas abaixo na ordem que eu prefiro.
 
 - UI
 
-  #### Com componentes prontos:
+  - Com componentes prontos:
 
-  1. [Material UI](https://mui.com/material-ui/getting-started/installation/)
-  2. [Bootstrap](https://react-bootstrap.github.io/getting-started/introduction)
-  3. [Chakra UI](https://chakra-ui.com/docs/getting-started)
-  4. [Ant Design](https://ant.design/docs/react/introduce)
+    1. [Material UI](https://mui.com/material-ui/getting-started/installation/)
+    2. [Bootstrap](https://react-bootstrap.github.io/getting-started/introduction)
+    3. [Chakra UI](https://chakra-ui.com/docs/getting-started)
+    4. [Ant Design](https://ant.design/docs/react/introduce)
 
-  #### Para utilizar como Framework CSS:
+  - Para utilizar como Framework CSS:
 
-  1. [Styled Components](https://styled-components.com/)
-  2. [Tailwind](https://tailwindcss.com/docs/installation)
+    1. [Styled Components](https://styled-components.com/)
+    2. [Tailwind](https://tailwindcss.com/docs/installation)
 
 - HttpRequests
 
@@ -137,7 +137,7 @@ Vou deixar as listas abaixo na ordem que eu prefiro.
 
 ## Projetos base
 
-Vale ressaltar que a escolha e o uso das ferramentas são **livres**, o único requisito é se atentar ao conceito de [**SaaS**](https://pt.wikipedia.org/wiki/Software_como_servi%C3%A7o) e aplicá-lo ao projeto.
+Vale ressaltar que a escolha e o uso das ferramentas são **livres**, o único requisito é se atentar ao conceito de [**SaaS**](https://pt.wikipedia.org/wiki/Software_como_servi%C3%A7o) e aplicá-lo ao projeto. A escolha das ferramentas deste tutorial são baseadas apenas nas minhas preferências, levando em conta também facilidade de uso.
 
 Atentem-se também ao arquivo `.gitignore`, para não realizarem commits de arquivos indesejados ou desnecessários.
 
