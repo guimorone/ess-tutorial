@@ -8,11 +8,20 @@
 
 #### Vale ressaltar que eu recomendo o uso de TypeScript, também por ser um trabalho em grupo e, apesar de deixar o código mais verboso, auxilia na documentação do projeto.
 
+As versões das ferramentas utilizadas neste projeto não precisam ser as que vocês iram usar, é só uma atenção para não ter problemas ao rodar este tutorial.
+
 # Back-end
 
 ## Python Flask
 
 ### Dependências
+
+Utilizadas neste projeto:
+
+- Python v3.11.0
+- pip v
+
+Docs:
 
 - [Python](https://www.python.org/downloads/)
 - [pip](https://pip.pypa.io/en/stable/installing/)
@@ -46,8 +55,14 @@ Há duas abordagens,são elas:
 
 ### Dependências
 
+Utilizadas neste projeto:
+
+- Node v16.19.1
+- npm v9.6.0
+
+Docs:
+
 - [NodeJS](https://nodejs.org/en/download/)
-- npm ou yarn (Gerenciador de pacotes para aplicações com Node)
 
 O resto pode ser visto no arquivo `backend-node/package.json`
 
@@ -64,8 +79,14 @@ node server.js
 
 ### Dependências
 
+Utilizadas neste projeto:
+
+- Node v16.19.1
+- npm v9.6.0
+
+Docs:
+
 - [NodeJS](https://nodejs.org/en/download/)
-- npm ou yarn (Gerenciador de pacotes para aplicações com Node)
 
 O resto pode ser visto no arquivo `frontend/package.json`
 
@@ -115,3 +136,13 @@ npm start
   - [Redux Sauce/Ducks](https://github.com/jkeam/reduxsauce#readme)
   1. [Immutable](https://immutable-js.com/#getting-started)
   2. [Seamless-immutable](https://github.com/rtfeldman/seamless-immutable#readme)
+
+## Projetos base
+
+#### Vale ressaltar que a escolha e o uso das ferramentas são livres, o único requisito é se atentar ao conceito de [SaaS](https://pt.wikipedia.org/wiki/Software_como_servi%C3%A7o) e aplicá-lo ao projeto.
+
+Se você quiser se basear em um projeto anterior da disciplina, aqui vai dois exemplos:
+
+- [Delivery App](https://github.com/Enriqson/ess-delivery-app)
+- [foMiau](https://github.com/aliceoq/ess-delivery-app)
+  - Obs: Esse foi feito com [Angular](https://angular.io/docs) no Front-end!
