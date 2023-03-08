@@ -33,7 +33,7 @@ O resto pode ser visto no arquivo `backend-flask/requirements.txt`
 
 ### Rodando localmente
 
-Há duas abordagens,são elas:
+Há três abordagens,são elas:
 
 - Com 1 direto comando no terminal
   ```sh
@@ -48,6 +48,13 @@ Há duas abordagens,são elas:
   flask run
   ```
   - Nota, você pode setar diretamente em um arquivo `.env` as variáveis `FLASK_APP` e `FLASK_ENV`
+- Rodando o arquivo `run.py`
+  ```sh
+  cd backend-flask/
+  python run.py
+  ```
+
+_Obs: Você também pode passar as flags `--host` e `--port` no comando `flask run` para especificar as portas_
 
 ## Javascript Node
 
@@ -137,12 +144,16 @@ Vou deixar as listas abaixo na ordem que eu prefiro.
 
 ## Projetos base
 
-Vale ressaltar que a escolha e o uso das ferramentas são **livres**, o único requisito é se atentar ao conceito de [**SaaS**](https://pt.wikipedia.org/wiki/Software_como_servi%C3%A7o) e aplicá-lo ao projeto. A escolha das ferramentas deste tutorial são baseadas apenas nas minhas preferências, levando em conta também facilidade de uso.
-
-Atentem-se também ao arquivo `.gitignore`, para não realizarem commits de arquivos indesejados ou desnecessários.
-
 Se você quiser se basear em um projeto anterior da disciplina, aqui vai dois exemplos:
 
 - [Delivery App](https://github.com/Enriqson/ess-delivery-app)
 - [foMiau](https://github.com/pedrojlsilva/ess-delivery-app)
   - Obs: Esse foi feito com [Angular](https://angular.io/docs) no Front-end!
+
+## Notas adicionais e dicas
+
+Vale ressaltar que a escolha e o uso das ferramentas são **livres**, o único requisito é se atentar ao conceito de [**SaaS**](https://pt.wikipedia.org/wiki/Software_como_servi%C3%A7o) e aplicá-lo ao projeto. A escolha das ferramentas deste tutorial são baseadas apenas nas minhas preferências, levando em conta também facilidade de uso.
+
+Atentem-se também ao arquivo `.gitignore`, para não realizarem commits de arquivos indesejados ou desnecessários.
+
+[Lista de gitignores](https://github.com/github/gitignore/)
