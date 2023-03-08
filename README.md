@@ -28,6 +28,7 @@ Docs:
   - [Resume](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-and-using-virtual-environments)
   - [pyenv](https://github.com/pyenv/pyenv#readme)
 - [Flask](https://flask.palletsprojects.com/en/2.2.x/installation/#install-flask)
+  - [Requests](https://flask.palletsprojects.com/en/2.2.x/api/#flask.Request)
 
 O resto pode ser visto no arquivo `backend-flask/requirements.txt`
 
@@ -38,19 +39,25 @@ Há três abordagens,são elas:
 - Com 1 direto comando no terminal
   ```sh
   cd backend-flask/
+  pip install -r requirements.txt
   flask --app app --debug run
   ```
 - Setando variável de ambiente
+
   ```sh
   cd backend-flask/
   export FLASK_APP=app # Use 'set' ao invés de 'export' se você estiver usando Windows
   export FLASK_ENV=development
+  pip install -r requirements.txt
   flask run
   ```
+
   - Nota, você pode setar diretamente em um arquivo `.env` as variáveis `FLASK_APP` e `FLASK_ENV`
+
 - Rodando o arquivo `run.py`
   ```sh
   cd backend-flask/
+  pip install -r requirements.txt
   python run.py
   ```
 
@@ -75,7 +82,8 @@ O resto pode ser visto no arquivo `backend-node/package.json`
 
 ```sh
 cd backend-node/
-node server.js
+npm install
+npm run dev
 ```
 
 # Front-end
@@ -108,6 +116,7 @@ A depender de como foi criada a aplicação, no caso deste repositório:
 
 ```sh
 cd frontend/
+npm install
 npm start
 ```
 
@@ -134,6 +143,10 @@ Vou deixar as listas abaixo na ordem que eu prefiro.
   1. [Axios](https://www.npmjs.com/package/axios#installing)
   2. Você também pode utilizar diretamente o método [Fetch](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch), porém é mais verboso e mais complicado.
 
+- Roteamento
+
+  1. [React Router Dom](https://reactrouter.com/en/main/start/tutorial#setup)
+
 - Redux
   - [Redux](https://redux.js.org/introduction/getting-started)
   - [Redux Saga](https://redux-saga.js.org/docs/introduction/GettingStarted)
@@ -156,4 +169,5 @@ Vale ressaltar que a escolha e o uso das ferramentas são **livres**, o único r
 
 Atentem-se também ao arquivo `.gitignore`, para não realizarem commits de arquivos indesejados ou desnecessários.
 
-[Lista de gitignores](https://github.com/github/gitignore/)
+- [Lista de gitignores](https://github.com/github/gitignore/)
+- [Fontes](https://fonts.google.com/)
