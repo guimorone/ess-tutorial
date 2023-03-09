@@ -47,9 +47,8 @@ Há três abordagens,são elas:
   ```sh
   cd backend-flask/
   export FLASK_APP=app # Use 'set' ao invés de 'export' se você estiver usando Windows
-  export FLASK_ENV=development
   pip install -r requirements.txt
-  flask run
+  flask run --debug
   ```
 
   - Nota, você pode setar diretamente em um arquivo `.env` as variáveis `FLASK_APP` e `FLASK_ENV`
@@ -89,6 +88,10 @@ npm run dev
 # Front-end
 
 ## React
+
+- [Componentes com Classe](https://reactjs.org/docs/react-component.html)
+- [Class x Function](https://reactjs.org/docs/components-and-props.html#function-and-class-components)
+- [Hooks](https://reactjs.org/docs/hooks-reference.html)
 
 ### Dependências
 
@@ -171,3 +174,4 @@ Atentem-se também ao arquivo `.gitignore`, para não realizarem commits de arqu
 
 - [Lista de gitignores](https://github.com/github/gitignore/)
 - [Fontes](https://fonts.google.com/)
+- [Paleta de cores](https://colorhunt.co/)

@@ -5,7 +5,8 @@ from flask_restful import Resource
 class Restaurant(Resource):
     def get(self):
         try:
-            return {"data": []}, 200
+            print(request.args.get("testeee"))
+            return {"data": [{"dale": "resposta"}]}, 200
         except:
             return {"data": []}, 500
 
